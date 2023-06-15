@@ -1,0 +1,65 @@
+    /* CSS styling goes here */
+    :root {
+        --main-color: #333333;
+        --heading-color: #FF0000;
+        --link-color: #0000FF;
+        --container-bg: #EEEEEE;
+        --table-bg: #CCCCCC;
+        --table-hover-bg: #DDDDDD;
+        --table-border-color: #999999;
+        --table-header-bg: #999999;
+        --font-size-heading: 24px;
+        --font-size-paragraph: 16px;
+        --font-family: Arial, sans-serif;
+      }
+  
+      body {
+        font-family: var(--font-family);
+        color: var(--main-color);
+      }
+  
+      h1 {
+        color: var(--heading-color);
+        font-size: var(--font-size-heading);
+        text-align: center;
+      }
+  
+      .container {
+        background-color: var(--container-bg);
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+        padding: 20px;
+      }
+  
+      ul li:first-child {
+        font-weight: bold;
+      }
+  
+      img {
+        width: 200px;
+        height: 100px;
+      }
+  
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+      }
+  
+      table th,
+      table td {
+        border: 1px solid var(--table-border-color);
+        padding: 8px;
+      }
+  
+      table tr:hover {
+        background-color: var(--table-hover-bg);
+      }
+  
+      table thead {
+        background-color: var(--table-header-bg);
+        color: white;
+      }
+  
+      /* Additional CSS properties, selectors, or rules can be added here */
